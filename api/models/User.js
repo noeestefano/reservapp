@@ -6,14 +6,14 @@ const UserSchema = new mongoose.Schema({
     required:true,
     unique:true
   },
-  email:{
+  email: {
     type: String,
     required:true,
-    unique:true
+    unique:true  
   },
   password: {
     type: String,
-    required:true
+    required:true  
   },
   isAdmin: {
     type: Boolean,
@@ -21,8 +21,6 @@ const UserSchema = new mongoose.Schema({
     default:false
   }
   
-
-  
 },{timestamps:true});
 
-export default mongoose.model("User",UserSchema);
+export default mongoose.model("User",UserSchema)

@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 import authRoute from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
 import hotelsRoute from "./routes/hotels.js";
-import roomsRoute from "./routes/rooms.js";
+import roomsRoute from "./routes/room.js";
 import cookieParser from "cookie-parser";
 dotenv.config()
 const app = express();
